@@ -92,8 +92,9 @@ nav a {
 
 /* Change color on hover/mouse-over */
 nav a:hover {
-    color: #c0e1c2; /* Black text color */
+    color: #c0e1c2; /* text color */
 }
+
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
