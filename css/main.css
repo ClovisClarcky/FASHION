@@ -134,6 +134,7 @@ textarea {
   margin-bottom: 45px;
   width: 100%;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  text-align: justify;
 }
 
 
@@ -353,6 +354,28 @@ input[type=text], textarea {
 
 
 /* Start biographie main style*/
+
+.AboutBox {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  /* border: 1px solid #9ca4a5;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); */
+
+}
+
+.AboutBox img {
+  margin: 0px;
+
+}
+
+.AboutBox p {
+  margin-right: 50px;
+
+}
+
 
 /*End biographie main style*/
 
