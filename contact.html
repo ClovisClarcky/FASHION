@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Les Barbouzes</title>
-  <meta name="description" content="un super site pour les barbouzes en tous genre !">
+  <title>Black Fashion</title>
+  <meta name="description" content="le blog de la mode africaine !">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
@@ -30,21 +30,22 @@
   <header>
     <!-- navigation -->
     <nav class="Navflexbox">
-      <ul class="Navflexbox">
+      <ul>
         <li><a href="index.html"><i class="fas fa-home"></i>Accueil</a></li>
         <li><a href="about.html">Biographie</a></li>
         <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
-
       </ul>
       <aside class="user">
-        <a href="connect.html">Connexion</a>
-        <a href="register.html">Inscription</a>
+      <ul>
+        <li><a href="#">Connexion</a></li>
+        <li><a href="#">Inscription</a></li>
+      </ul>
       </aside>
     </nav>
     <!-- Header section with main title -->
     <section class="mainColor textCenter">
-      <h1 id="mainTitle">black fashion</h1>
-      <p>- Le Blog de la mode Africaine -</p>
+      <a href="index.html"><h1 id="mainTitle">black fashion</h1>
+      <p>- Le Blog de la mode Africaine -</p></a>
     </section>
   </header>
 
@@ -62,30 +63,31 @@
 
   -->
   <main>
-    <!-- contact form -->
-    <section>
-      <h3> contact </h3>
+    <!-- Start contact form -->
+        <section>
+          <h3>Me Contacter</h3>
 
-        <article class="formBox">
+            <article class="formBox">
 
-          <form action="contact.html">
-           <label for="fname">Nom</label>
-           <input type="text" id="fname" name="firstname" placeholder="Saisir Nom..">
+              <form action="contact.html">
+               <label for="fname">Nom</label>
+               <input type="text" id="fname" name="firstname" placeholder="Saisir Nom..">
 
-           <label for="mail">E-mail</label>
-           <input type="text" id="mail" name="Email" placeholder="Saisir E-mail..">
+               <label for="mail">E-mail</label>
+               <input type="email" id="mail" name="Email" placeholder="Saisir E-mail..">
 
-           <label for="subject">Message</label>
-           <textarea id="subject" name="subject" placeholder="Saisir Message.." style="height:200px"></textarea>
+               <label for="subject">Message</label>
+               <textarea id="subject" name="subject" placeholder="Saisir Message.." style="height:200px"></textarea>
 
-             <input type="submit" value="Envoyez">
+                 <input type="submit" value="Envoyez">
 
-          </form>
+              </form>
 
-        </article>
+            </article>
 
-      </div>
-    </section>
+          </div>
+        </section>
+          <!-- End contact form -->
   </main>
   <!--
 
@@ -100,17 +102,19 @@
   ########## Start footer #############
 
   -->
-  <footer class="mainColor">
-    <div class="Footflebox">
+  <footer class="Footbox">
+    <div class="footcontenair">
+    <div>
      <p>Copyright © 2018 , Tout droit réservé clovis Amonchi</p>
-     <aside>
+    </div>
+    <aside class="socialIcon">
      <ul>
       <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
       <li><a href="#"><i class="fab fa-linkedin"></i>Linkedin</a></li>
       <li><a href="#"><i class="fab fa-twitter-square"></i>Twitter</a></li>
      </ul>
-   </aside>
-   </div>
+    </aside>
+    </div>
   </footer>
   <!--
 

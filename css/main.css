@@ -126,6 +126,32 @@ textarea {
   justify-content: space-around;
 }
 
+.Article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #9ca4a5;
+  margin-top: 3em;
+  padding: 2em;
+  width: 100%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  text-align: justify;
+}
+
+.Article img {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.Article h3 {
+color: #9ca4a5;
+font-family: 'Poiret One', cursive;
+text-transform: uppercase;
+font-size: 2.5em;
+margin-bottom: 0.1em;
+margin-top: 0.1em;
+}
+
+
 .blogArticle {
   display: flex;
   padding-right: 20px;
@@ -166,7 +192,6 @@ h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 p, a, li, input {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9em;
@@ -201,6 +226,10 @@ h1 {
   text-transform: uppercase;
   color: #6a6f73;
 
+}
+
+h2 {
+color: #648887;
 }
 
 .blogArticle h3 {
@@ -254,6 +283,7 @@ margin-top: 2px;
 
 nav a:hover {
     color: #4b8e90; /* text color */
+    text-decoration: underline;
 }
 
 /* nav ul li {
@@ -291,8 +321,8 @@ nav a:hover {
   margin-left: 1em;
 }
 
-.fab {
-  margin-right: 5px;
+.footcontenair a :hover {
+  text-decoration: underline;
 }
 
 
@@ -354,7 +384,7 @@ justify-content:space-between;
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
@@ -372,6 +402,17 @@ input[type=text], textarea {
 
 /* Start biographie main style*/
 
+section h3 {
+color: #9ca4a5;
+font-family: 'Poiret One', cursive;
+text-transform: uppercase;
+font-size: 2em;
+margin-bottom: 0.1em;
+margin-top: 1em;
+}
+
+
+
 .AboutBox {
   display: flex;
   justify-content: space-around;
@@ -380,18 +421,31 @@ input[type=text], textarea {
   text-align: justify;
   /* border: 1px solid #9ca4a5;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2); */
-
 }
 
 .AboutBox img {
   margin: 0px;
+}
+
+.aboutcontent {
+  margin-right: 2.5em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th{
+  border: 1px solid black;
+  padding: 0.5em;
 
 }
 
-.AboutBox p {
-  margin-right: 50px;
-
+th{
+  background-color: #DCDCDC;
 }
+
 
 
 /*End biographie main style*/
